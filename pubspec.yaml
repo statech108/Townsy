@@ -10,10 +10,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  geolocator: ^14.0.2
-  geocoding: ^3.0.0
-  http: ^1.4.0
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -21,21 +17,3 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  assets:
-    - assets/fonts/
-
-  fonts:
-    - family: Playfair
-      fonts:
-        - asset: assets/fonts/PlayfairDisplay-Regular.ttf
-
-
-
-    - family: Harmattan
-      fonts:
-        - asset: assets/fonts/Harmattan-Regular.ttf
-
-    - family: Harmattan_B
-      fonts:
-        - asset: assets/fonts/Harmattan-Bold.ttf
